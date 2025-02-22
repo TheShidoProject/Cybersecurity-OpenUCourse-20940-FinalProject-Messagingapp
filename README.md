@@ -30,6 +30,11 @@
 #### threading
 #### re (Secret Labs' Regular Expression Engine)
 
+### An inside look to the development process, our class UML's:
+Here are some of our UML's we created before and during our work on the project - they contain some inaccuracies regarding the final design we went with but it contains some good points to what we thoguht of before and during our work on the project.
+#### [server-side](https://lucid.app/lucidchart/e60fc903-e641-4ff6-88d3-6dd8ac1bb5fd/edit?viewport_loc=-961%2C-279%2C3222%2C1799%2C0_0&invitationId=inv_81f414d9-cca6-4cd5-9e36-1ae5148da405)
+#### [user-side](https://lucid.app/lucidchart/cc9a3872-09da-4929-a7a3-ac6f06988815/edit?viewport_loc=-594%2C103%2C2061%2C1151%2C0_0&invitationId=inv_4f8fedab-117f-4bd2-a125-8facc4ec641d)
+
 # Overview of Server and client actions
 
 ### Overview of the Server
