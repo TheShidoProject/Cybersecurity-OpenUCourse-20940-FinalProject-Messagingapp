@@ -163,7 +163,7 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 
 
 # Questions, you might be having
-  ### ***Why use ECC-based Cryptography (Elliptic Curve Cryptography) instead of the known RSA-based Cryptography?***
+  ### ***Why use ECC-based cryptography (Elliptic Curve Cryptography) instead of the known RSA-based cryptography?***
   For those wondering why did we use ECC-based encryption instead of RSA-based encryption here are some of our considerations: 
 
 #### 1) Smaller Key Sizes for Equivalent Security
