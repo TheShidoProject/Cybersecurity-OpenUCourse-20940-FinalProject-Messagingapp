@@ -195,4 +195,6 @@ We wanted to use this project to learn new technologies, after both of us alread
 
   #### A chart the represents the Efficiency of RSA vs ECC in terms of key size for similar security
   ![RSA_vs_ECC](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/rsa_vs_ecc_performance.png)
+  #### A gif illustrating how ECC works
+  ![ECC_gif](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/gifs/elliptic-curve-gif.gif)
 
