@@ -77,11 +77,11 @@ Server side - the user has already registered, the server has the user’s publi
                 "salt": base64.b64encode(salt).decode("utf-8"),
             }
 ```
-6)	Server validates the phone number.
-7)	Server generates the same shared secret with his private key and Ido’s public key and derives the same derived key with the salt using KDF.
-8)	Server unwraps the wrapped AES key with derived key and iv.
-9)	Server decrypt the secret code using the AES key and the other iv, then validate the code from the database (where he saved Ido’s credentials).
-10)	If all successful, send to Ido that the connection is established.
+6) The	Server validates the phone number.
+7) The	Server generates the same shared secret with his private key and Ido’s public key and derives the same derived key with the salt using KDF.
+8)	The Server unwraps the wrapped AES key with derived key and iv.
+9)	The Server decrypt the secret code using the AES key and the other iv, then validate the code from the database (where he saved Ido’s credentials).
+10)	If all successful, the Server sends to Ido that the connection is established.
 
 
 # Questions, you might be having:
