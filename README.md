@@ -33,6 +33,7 @@
   ##### 3) Communication protocol. 
   ##### 4) Request for waiting messages protocol.
 
+  #### protocol codes in our uml
   ![protocol_codes_in_uml](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/ProtocolCodes.png)
   
 
@@ -179,7 +180,6 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 •	Before sending messages, users request the recipient's public key from the server. This ensures that encryption is directed toward the intended recipient, authenticated by their phone number.
 
 ## Resistance to MITM Attacks (Man-in-the-middle)
-![MITM_attack](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/man_in_the_middle.png)
 ### Use of ECC (Elliptic Curve Cryptography)
 •	ECDH key exchange ensures that even if an attacker intercepts the data, they cannot derive the shared secret without access to the private keys.
 ### Public Key Validation
@@ -188,6 +188,8 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 •	Random IVs and salts in key derivation and encryption prevent replay attacks and make it computationally infeasible to predict or replicate keys.
 ### AES Encryption
 •	The use of AES encryption ensures that even if ciphertext is intercepted, it cannot be decrypted without the correct AES key. 
+#### A picture that represents a MITM attack
+![MITM_attack](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/man_in_the_middle.png)
 
 
 
