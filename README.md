@@ -35,7 +35,7 @@ The server works by default on port: 5000.
 
 In it’s creation, it generates public and private ECC keys.
 
-It waits for requests from clients (in the form of jsons') in an endless loop, when it receives a request, it deciphers the request and operates based on the request code it extracts from the request.
+It waits for requests from clients (in the form of jsons') in an endless loop; when it receives a request, it deciphers the request and operates based on the request code it extracts from the request.
 
 # Overview of User
 When created (after user input) it initializes a phone number, an email address and generates public and private ECC keys.
