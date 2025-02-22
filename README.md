@@ -127,7 +127,8 @@ Shiloh generates the same shared secret with his private key and the sender’s 
   For those wondering why did we use ECC-based encryption instead of RSA-based encryption here are some of our considerations: 
 
 ### 1) Smaller Key Sizes for Equivalent Security:
-ECC provides the same level of security as RSA but with much smaller key sizes. For example, a 256-bit key in ECC offers roughly the same security as a 3072-bit key in RSA. Smaller key           sizes mean less computational power is required, leading to faster encryption/decryption and less memory usage.
+    ECC provides the same level of security as RSA but with much smaller key sizes. For example, a 256-bit key in ECC offers roughly the same security as a 3072-bit key in RSA. Smaller key           sizes mean less computational power is   
+    required, leading to faster encryption/decryption and less memory usage.
 
 ### 2) Efficiency and Lower Power Consumption:
 Since ECC uses smaller keys for the same level of security, it results in faster computation and reduced bandwidth consumption. This makes ECC especially useful in environments with              limited resources, like mobile devices or  IoT (Internet of Things) devices. ECC's efficiency in terms of smaller key sizes means that it consumes less power, which is particularly valuable       in battery-powered devices
