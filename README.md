@@ -138,26 +138,26 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 
 ## Integrity
 
-### Message Encryption:
+### Message Encryption
 •	By using AES encryption, the integrity of messages is inherently protected since tampering with the ciphertext results in decryption failure or nonsensical plaintext.
 
-### Validation Mechanisms:
+### Validation Mechanisms
 •	The server validates incoming data such as phone numbers, email addresses, and secret codes during both registration and connection, ensuring the legitimacy and accuracy of the data being processed.
 
-### <ins>Authentication</ins>
-#### Client-Server Authentication:
+### <ins>Authentication:</ins>
+#### Client-Server Authentication
 •	During registration and connection, the client sends its public key and a securely derived secret code to the server, which cross-verifies it with its stored data to authenticate the user.
-#### Inter-Client Authentication:
+#### Inter-Client Authentication
 •	Before sending messages, users request the recipient's public key from the server. This ensures that encryption is directed toward the intended recipient, authenticated by their phone number.
 
 ## Resistance to MITM Attacks
-### Use of ECC (Elliptic Curve Cryptography):
+### Use of ECC (Elliptic Curve Cryptography)
 •	ECDH key exchange ensures that even if an attacker intercepts the data, they cannot derive the shared secret without access to the private keys.
-### Public Key Validation:
+### Public Key Validation
 •	 The server plays a critical role in verifying and distributing public keys, reducing the risk of an attacker inserting a malicious key.
-### Randomness and Salts:
+### Randomness and Salts
 •	Random IVs and salts in key derivation and encryption prevent replay attacks and make it computationally infeasible to predict or replicate keys.
-### AES Encryption:
+### AES Encryption
 •	The use of AES encryption ensures that even if ciphertext is intercepted, it cannot be decrypted without the correct AES key. 
 
 
