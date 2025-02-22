@@ -10,9 +10,23 @@
   Each user needs to register or reconnect to the server and only then he can send (or read) messages to (from) other users that the server (upon request) sends to the users back.
 
   To achieve End-to-end encryption we utilised the Elliptic-curve Diffie–Hellman (ECDH) key agreement protocol and upon each new message we used it to choose a new AES-CBC key that we later     
-  exchangd the message through [For a more in-detail explanation, keep scrolling].
-
+  exchangd the message through.
   
+  > [!NOTE]
+  >  For a more in-detail explanation, keep scrolling and watch the following videos
+  #### [What is the Diffie-Hellman algorithm?](https://youtu.be/85oMrKd8afY?si=-okZEN9M6x6zJxBk)
+  #### [What is ECC (Elliptic Curve Cryptography)?](https://youtu.be/NF1pwjL9-DE?si=yOYptssAnffK5pZ8)
+  #### [What is AES (Advanced Encryption Standard)?](https://youtu.be/O4xNJsjtN6E?si=UBw5hMDR66QG0dNL)
+  #### [General good knowledge - Different AES modes](https://youtu.be/Rk0NIQfEXBA?si=TNnUPrqP4rYHjYPt)
+  #### [Hashing Algorithms](https://youtu.be/b4b8ktEV4Bg?si=yWsUorino_4JtMYY)
+
+  #### A gif illustrating how ECC works
+  ![ECC_gif](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/gifs/elliptic-curve-gif.gif)
+  
+> [!TIP]
+> We recommend being familiar with the following videos above and of course the more knowledge you have the better
+
+
   #### <ins> Essentially there are 4 major protocols or processes that operate with each other in the project: </ins>
   ##### 1) Registration protocol. 
   ##### 2) Connect/Connection protocol.
@@ -97,8 +111,6 @@ message_dict = {
 
 # Communication protocol - Communication between two users
 ### [Click here to view the UML we created for the Communication protocol](https://lucid.app/lucidchart/e411f997-0c85-4016-a39f-16903ef4b05d/edit?viewport_loc=-374%2C-507%2C3045%2C1700%2C0_0&invitationId=inv_b38c84e0-deb4-4b11-a4d0-ac770831bbb3)
-#### [Click here to watch a video about Diffie-Hellman algorithm if you are not already familliar with it](https://youtu.be/85oMrKd8afY?si=-okZEN9M6x6zJxBk)
-#### [Click here to watch a video about ECC (Elliptic Curve Cryptography) if you are not already familliar with it](https://youtu.be/NF1pwjL9-DE?si=yOYptssAnffK5pZ8)
 when the server is online, and an online client (let's name him Ido) wants to send a message to another client (let's name him Shiloh).
 
 #### Steps of sending a message:
@@ -194,9 +206,7 @@ The underlying mathematical problem behind ECC (the elliptic curve discrete loga
 
 #### 5) Expanding our Skill Set
 We wanted to use this project to learn new technologies, after both of us already have done a project using RSA-based encryption; we used this project as a way to experiment with integrating new technologies.
-
+ 
   #### A chart the represents the Efficiency of RSA vs ECC in terms of key size for similar security
   ![RSA_vs_ECC](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/rsa_vs_ecc_performance.png)
-  #### A gif illustrating how ECC works [for an explanation on how it works I recommend watching the video here](https://youtu.be/NF1pwjL9-DE?si=yOYptssAnffK5pZ8)
-  ![ECC_gif](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/gifs/elliptic-curve-gif.gif)
 
