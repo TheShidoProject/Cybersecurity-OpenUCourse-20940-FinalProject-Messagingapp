@@ -13,7 +13,7 @@
   exchangd the message through [For a more in-detail explanation, keep scrolling].
 
   
-  ### <ins>Essentially there are 4 major protocols or processes that operate with each other in the project:</ins>
+  ## Essentially there are 4 major protocols or processes that operate with each other in the project:
   #### 1) Registration protocol. 
   #### 2) Connect/Connection protocol.
   #### 3) Communication protocol. 
