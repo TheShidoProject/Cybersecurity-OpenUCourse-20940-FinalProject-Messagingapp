@@ -13,15 +13,15 @@
   exchangd the message through [For a more in-detail explanation, keep scrolling].
 
   
-  ### Essentially there are 4 major protocols or processes that operate with each other in the project:
-  1) Registration protocol. 
-  2) Connect/Connection protocol.
-  3) Communication protocol. 
-  4) Request for waiting messages protocol.
+  ### <ins>Essentially there are 4 major protocols or processes that operate with each other in the project:</ins>
+  #### 1) Registration protocol. 
+  #### 2) Connect/Connection protocol.
+  #### 3) Communication protocol. 
+  #### 4) Request for waiting messages protocol.
 
 [Video for showcasing the project (in hebrew)]
 
-### Libraries used:
+### <ins> Libraries used: </ins>
 #### cryptography (.hazmat)
 #### hashlib
 #### Base64
@@ -30,11 +30,13 @@
 #### threading
 #### re (Secret Labs' Regular Expression Engine)
 
-### An inside look to the development process, our class UML's:
+### <ins>An inside look to the development process, our class UML's:</ins>
 Here are some of our UML's we created before and during our work on the project - they contain some inaccuracies regarding the final design we went with but it contains some good points to what we thoguht of before and during our work on the project.
 #### [server-side](https://lucid.app/lucidchart/e60fc903-e641-4ff6-88d3-6dd8ac1bb5fd/edit?viewport_loc=-961%2C-279%2C3222%2C1799%2C0_0&invitationId=inv_81f414d9-cca6-4cd5-9e36-1ae5148da405)
 #### [user-side](https://lucid.app/lucidchart/cc9a3872-09da-4929-a7a3-ac6f06988815/edit?viewport_loc=-594%2C103%2C2061%2C1151%2C0_0&invitationId=inv_4f8fedab-117f-4bd2-a125-8facc4ec641d)
-
+#### [Registration process](https://lucid.app/lucidchart/ef5d014f-755a-4853-8aa5-fa723d7300f9/edit?viewport_loc=-3171%2C-1122%2C4515%2C2120%2C0_0&invitationId=inv_0484b627-36d1-469e-9eb8-0d0644443883)
+#### [Connection protocol and CheckWaitingMessagesProtocol](https://lucid.app/lucidchart/1c0befd0-05d0-4336-a706-4df23ce38326/edit?viewport_loc=-1060%2C-16%2C4177%2C2332%2C0_0&invitationId=inv_6b2772a5-4e2c-4f3f-af36-3ba3da01c8da)
+#### [Communication protocol](https://lucid.app/lucidchart/e411f997-0c85-4016-a39f-16903ef4b05d/edit?viewport_loc=-374%2C-507%2C3045%2C1700%2C0_0&invitationId=inv_b38c84e0-deb4-4b11-a4d0-ac770831bbb3)
 # Overview of Server and client actions
 
 ### Overview of the Server
