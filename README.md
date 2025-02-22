@@ -148,11 +148,11 @@ Client-Server Authentication:
 ### Resistance to MITM Attacks
 #### Use of ECC (Elliptic Curve Cryptography):
 •	ECDH key exchange ensures that even if an attacker intercepts the data, they cannot derive the shared secret without access to the private keys.
-##### Public Key Validation:
+#### Public Key Validation:
 •	 The server plays a critical role in verifying and distributing public keys, reducing the risk of an attacker inserting a malicious key.
-##### Randomness and Salts:
+#### Randomness and Salts:
 •	Random IVs and salts in key derivation and encryption prevent replay attacks and make it computationally infeasible to predict or replicate keys.
-##### AES Encryption:
+#### AES Encryption:
 •	The use of AES encryption ensures that even if ciphertext is intercepted, it cannot be decrypted without the correct AES key. 
 
 
