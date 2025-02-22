@@ -89,6 +89,7 @@ message_dict = {
 
 
 # Communication protocol - Communication between two users
+### [Click here to view the UML we created for the Communication protocol](https://lucid.app/lucidchart/e411f997-0c85-4016-a39f-16903ef4b05d/edit?viewport_loc=-374%2C-507%2C3045%2C1700%2C0_0&invitationId=inv_b38c84e0-deb4-4b11-a4d0-ac770831bbb3)
 when the server is online, and an online client (let's name him Ido) wants to send a message to another client (let's name him Shiloh).
 
 #### Steps of sending a message:
