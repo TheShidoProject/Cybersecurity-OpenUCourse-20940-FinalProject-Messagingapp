@@ -56,6 +56,7 @@ When created (after user input) it initializes a phone number, an email address 
 7)	Server sends register success if no error has occurred.
  
 # Connect protocol
+### [Click here to view the UML we created for the Connection protocol or check waiting messages protocol](https://lucid.app/lucidchart/1c0befd0-05d0-4336-a706-4df23ce38326/edit?viewport_loc=-1060%2C-16%2C4177%2C2332%2C0_0&invitationId=inv_6b2772a5-4e2c-4f3f-af36-3ba3da01c8da)
 when the server is online, and a client (lets name him Ido) wants to connect.
 
 #### Presumptions:
@@ -112,6 +113,7 @@ message_dict = {
 In order to see the message Shiloh needs to initiate the next chapter, request for waiting messages.
 
 # Request for waiting messages protocol / CheckWaitingMessagesProtocol
+### [Click here to view the UML we created for the check waiting messages protocol or the Connection protocol](https://lucid.app/lucidchart/1c0befd0-05d0-4336-a706-4df23ce38326/edit?viewport_loc=-1060%2C-16%2C4177%2C2332%2C0_0&invitationId=inv_6b2772a5-4e2c-4f3f-af36-3ba3da01c8da)
 when the server is online, and an online client (let's name him Shiloh) wants to see all of his messages.
 
 #### The steps shiloh takes to view his messages:
