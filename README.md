@@ -33,7 +33,7 @@
   ##### 3) Communication protocol. 
   ##### 4) Request for waiting messages protocol.
 
-  [protocol_codes_in_uml](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/ProtocolCodes.png)
+  ![protocol_codes_in_uml](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/ProtocolCodes.png)
   
 
 [Video for showcasing the project (in English) will soon be uploaded here]
