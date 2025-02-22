@@ -179,7 +179,7 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 •	Before sending messages, users request the recipient's public key from the server. This ensures that encryption is directed toward the intended recipient, authenticated by their phone number.
 
 ## Resistance to MITM Attacks (Man-in-the-middle)
-[MITM_attack](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/man_in_the_middle.png)
+![MITM_attack](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/man_in_the_middle.png)
 ### Use of ECC (Elliptic Curve Cryptography)
 •	ECDH key exchange ensures that even if an attacker intercepts the data, they cannot derive the shared secret without access to the private keys.
 ### Public Key Validation
