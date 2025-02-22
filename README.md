@@ -13,11 +13,11 @@
   exchangd the message through [For a more in-detail explanation, keep scrolling].
 
   
-  ## Essentially there are 4 major protocols or processes that operate with each other in the project:
-  #### 1) Registration protocol. 
-  #### 2) Connect/Connection protocol.
-  #### 3) Communication protocol. 
-  #### 4) Request for waiting messages protocol.
+  #### Essentially there are 4 major protocols or processes that operate with each other in the project:
+  ##### 1) Registration protocol. 
+  ##### 2) Connect/Connection protocol.
+  ##### 3) Communication protocol. 
+  ##### 4) Request for waiting messages protocol.
 
 [Video for showcasing the project (in hebrew)]
 
