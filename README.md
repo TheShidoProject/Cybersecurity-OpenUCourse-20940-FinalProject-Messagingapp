@@ -4,7 +4,7 @@
   It is a client-server application which is similar to a messagner (like Whatsapp or Telegram etc etc...);
   It communicates under a tcp connection with End-to-end encryption (E2EE). 
   
-  Both the client-side and the server-side is written in Python.
+  Both the client-side and the server-side are written in Python.
   
   Each user needs to register or reconnect to the server and only then he can send (or read) messages to (from) other users that the server (upon request) sends to the users back.
   To achieve End-to-end encryption we utilised the Elliptic-curve Diffie–Hellman (ECDH) key agreement protocol and upon each new message we used it to choose a new AES-CBC key that we later     
