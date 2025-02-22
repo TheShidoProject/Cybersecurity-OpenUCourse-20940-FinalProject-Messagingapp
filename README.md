@@ -84,6 +84,34 @@ Server side - the user has already registered, the server has the user’s publi
 10)	If all successful, the Server sends to Ido that the connection is established.
 
 
+# Communication protocol - Communication between two users
+when the server is online, and an online client (let's name him Ido) wants to send a message to another client (let's name him Shiloh).
+
+#### Steps of sending a message:
+1)	Ido sends the server Shiloh’s phone number and asks for Shiloh’s public key.
+2)	The Server validates the phone number and sends Ido as requested Shiloh’s public key.
+3)	Ido repeats steps 1-4 from the last chapter, but instead of using the server’s public key, he uses Shiloh’s public key (and encrypt his message with the AES key).
+4)	Ido sends the server:
+   
+```python
+message_dict = {
+          "code": UserSideRequestCodes.SEND_MESSAGE.value,
+          "sender_public_key": base64.b64encode(user_public_key_pem).decode('utf-8'),
+          "wrapped_aes_key": base64.b64encode(wrapped_key_data).decode('utf-8'),
+          "iv_for_wrapped_key": base64.b64encode(iv_for_wrapped_key).decode('utf-8'),
+          "encrypted_message": base64.b64encode(encrypted_message).decode('utf-8'),
+          "iv_for_message": base64.b64encode(iv_for_secret).decode('utf-8'),
+          "salt": base64.b64encode(salt).decode('utf-8'),
+}
+```
+5)	The Server saves the message in database under waiting messages for Shiloh. 
+
+In order to see the message Shiloh needs to initiate the next chapter, request for waiting messages.
+
+
+
+
+
 # Questions, you might be having:
   #### ***Why use ECC-based asymmetric encryption algorithm (Elliptic Curve Cryptography) instead of the known RSA asymmetric encryption algorithm?***
   For those wondering why did we use ECC-based encryption instead of RSA-based encryption here are some of our considerations: 
