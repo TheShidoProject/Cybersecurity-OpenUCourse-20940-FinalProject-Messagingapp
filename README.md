@@ -141,6 +141,6 @@ Shiloh generates the same shared secret with his private key and the sender’s 
   5) Expanding our Skill Set:
      We wanted to use this project to learn new technologies, after both of us already have done a project using RSA-based encryption; we used this project as a way to experiment with                 integrating new technologies.
 
-  ##### A chart the represents the Efficiency of RSA vs ECC in terms of key size for similar security
+  #### A chart the represents the Efficiency of RSA vs ECC in terms of key size for similar security
   ![RSA_vs_ECC](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/rsa_vs_ecc_performance.png)
 
