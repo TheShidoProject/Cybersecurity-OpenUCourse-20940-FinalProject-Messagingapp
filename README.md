@@ -30,7 +30,7 @@
 ##### threading
 ##### re (Secret Labs' Regular Expression Engine)
 
-# Overview of Server an client actions
+# Overview of Server and client actions
 
 ### Overview of the Server
 The server works by default on port: 5000.
