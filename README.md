@@ -19,13 +19,13 @@
 [Video for showcasing the project (in hebrew)]
 
 #### Libraries used:
-  ##### cryptography (.hazmat)
-  ##### hashlib
-  ##### Base64
-  ##### Socket
-  ##### json
-  ##### threading
-  ##### re (Secret Labs' Regular Expression Engine)
+##### cryptography (.hazmat)
+##### hashlib
+##### Base64
+##### Socket
+##### json
+##### threading
+##### re (Secret Labs' Regular Expression Engine)
 
 # Overview of Server's Functionality
 The server works on the default port: 5000.
