@@ -50,7 +50,7 @@ When created (after user input) it initializes a phone number, an email address 
 4)	Server generates a random 6 figures code and sends it by secure channel to the user.
 5)	Shiloh sends the server his public key.
 6)	The server saves the new user (with all of his credentials) in the database.
-7)	Server sends register success if no error occurred.
+7)	Server sends register success if no error has occurred.
  
 
 
