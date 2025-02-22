@@ -67,15 +67,15 @@ Server side - the user has already registered, the server has the user’s publi
 5)	Ido sends to the server a json with all the necessary parameters it needs:
 
 ```python
-            message_dict = {
-                "code": ProtocolCodes.initConnectionAESExchange.value,
-                "phone_number": phone_number,
-                "wrapped_aes_key": base64.b64encode(wrapped_key_data).decode("utf-8"),
-                "iv_for_wrapped_key": base64.b64encode(iv_for_wrapped_key).decode("utf-8"),
-                "encrypted_secret_code": base64.b64encode(encrypted_secret_code).decode("utf-8"),
-                "iv_for_secret": base64.b64encode(iv_for_secret).decode("utf-8"),
-                "salt": base64.b64encode(salt).decode("utf-8"),
-            }
+message_dict = {
+          "code": ProtocolCodes.initConnectionAESExchange.value,
+          "phone_number": phone_number,
+          "wrapped_aes_key": base64.b64encode(wrapped_key_data).decode("utf-8"),
+          "iv_for_wrapped_key": base64.b64encode(iv_for_wrapped_key).decode("utf-8"),
+          "encrypted_secret_code": base64.b64encode(encrypted_secret_code).decode("utf-8"),
+          "iv_for_secret": base64.b64encode(iv_for_secret).decode("utf-8"),
+          "salt": base64.b64encode(salt).decode("utf-8"),
+}
 ```
 6) The	Server validates the phone number.
 7) The	Server generates the same shared secret with his private key and Ido’s public key and derives the same derived key with the salt using KDF.
