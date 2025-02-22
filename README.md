@@ -2,11 +2,13 @@
  
   This is a project we (Shiloh and Ido) have done as part of our university course.
   It is a client-server application which is similar to a messagner (like Whatsapp or Telegram etc etc...);
+  
   It communicates under a tcp connection with End-to-end encryption (E2EE). 
   
   Both the client-side and the server-side are written in Python.
   
   Each user needs to register or reconnect to the server and only then he can send (or read) messages to (from) other users that the server (upon request) sends to the users back.
+
   To achieve End-to-end encryption we utilised the Elliptic-curve Diffie–Hellman (ECDH) key agreement protocol and upon each new message we used it to choose a new AES-CBC key that we later     
   exchangd the message through [For a more in-detail explanation, keep scrolling].
 
@@ -17,17 +19,17 @@
 [Video for showcasing the project (in hebrew)]
 
 #### Libraries used:
-##### cryptography (.hazmat)
-##### hashlib
-##### Base64
-##### Socket
-##### json
-##### threading
-##### re (Secret Labs' Regular Expression Engine)
-##### random
-##### os
-##### enum
-##### abc
+  ##### cryptography (.hazmat)
+  ##### hashlib
+  ##### Base64
+  ##### Socket
+  ##### json
+  ##### threading
+  ##### re (Secret Labs' Regular Expression Engine)
+  ##### random
+  ##### os
+  ##### enum
+  ##### abc
 
   #### ***Why use ECC-based asymmetric encryption algorithm (Elliptic Curve Cryptography) instead of the known RSA asymmetric encryption algorithm?***
   For those wondering why did we use ECC-based encryption instead of RSA-based encryption here are some of our considerations: 
