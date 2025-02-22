@@ -1,19 +1,19 @@
-# A Little about the project 🖧🌐📱
+# A Little about the project 📱🌐🖧
  
   This is a project we (Shiloh and Ido) have done as part of our university course.
   It is a client-server application which is similar to a messenger (like Whatsapp or Telegram etc etc...);
   
-  It communicates under a tcp connection with End-to-end encryption (E2EE). 
+  It communicates under a tcp connection with End-to-end encryption (E2EE). 🔒
   
-  Both the client-side and the server-side are written in Python.
+  Both the client-side and the server-side are written in Python.🐍
   
   Each user needs to register or reconnect to the server and only then he can send (or read) messages to (from) other users that the server (upon request) sends to the users back.
 
   To achieve End-to-end encryption we utilised the Elliptic-curve Diffie–Hellman (ECDH) key agreement protocol and upon each new message we used it to choose a new AES-CBC key that we later     
-  exchangd the message through.
+  exchangd the message through.🗝️🔐
   
   > [!NOTE]
-  >  For a more in-detail explanation, keep scrolling and watch the following videos:
+  >  For a more in-detail explanation, keep scrolling and watch the following videos🗃️📂: 
   #### [What is the Diffie-Hellman algorithm?](https://youtu.be/85oMrKd8afY?si=-okZEN9M6x6zJxBk)
   #### [What is ECC (Elliptic Curve Cryptography)?](https://youtu.be/NF1pwjL9-DE?si=yOYptssAnffK5pZ8)
   #### [What is AES (Advanced Encryption Standard)?](https://youtu.be/O4xNJsjtN6E?si=UBw5hMDR66QG0dNL)
@@ -24,7 +24,7 @@
   ![ECC_gif](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/gifs/elliptic-curve-gif.gif)
   
 > [!TIP]
-> We recommend being familiar with the following videos above and of course the more knowledge you have the better.
+> We recommend being familiar with the following videos above and of course the more knowledge you have the better🎯.
 
 
   #### <ins> Essentially there are 4 major protocols or processes that operate with each other in the project: </ins>
@@ -39,7 +39,7 @@
 
 [Video for showcasing the project (in English) will soon be uploaded here]
 
-### <ins> Libraries used: </ins>
+### <ins> Libraries used: </ins> 📚🎧☕
 #### cryptography (.hazmat)
 #### hashlib
 #### Base64
@@ -57,14 +57,14 @@ Here are some of our UML's we created before and during our work on the project 
 #### [Communication protocol](https://lucid.app/lucidchart/e411f997-0c85-4016-a39f-16903ef4b05d/edit?viewport_loc=-374%2C-507%2C3045%2C1700%2C0_0&invitationId=inv_b38c84e0-deb4-4b11-a4d0-ac770831bbb3)
 # Overview of Server and client actions
 
-### Overview of the Server
+### Overview of the Server💻👾
 The server works by default on port: 5000.
 
 In it’s creation, it generates public and private ECC keys.
 
 It waits for requests from clients (in the form of jsons') in an endless loop; when it receives a request, it deciphers the request and operates based on the request code it extracts from the request.
 
-### Overview of the User
+### Overview of the User📱👨‍💼
 When created (after user input) it initializes a phone number, an email address and generates public and private ECC keys.
 
 # Registration process:
@@ -153,7 +153,7 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 
 
 
-# Security Compliance Summary
+# Security Compliance Summary ✨</>✨
 
 ## Confidentiality
 
