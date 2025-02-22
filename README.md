@@ -123,7 +123,7 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 6) Shiloh views the messages one by one.
 
 # Questions, you might be having:
-  ## ***Why use ECC-based asymmetric encryption algorithm (Elliptic Curve Cryptography) instead of the known RSA asymmetric encryption algorithm?***
+  ### ***Why use ECC-based asymmetric encryption algorithm (Elliptic Curve Cryptography) instead of the known RSA asymmetric encryption algorithm?***
   For those wondering why did we use ECC-based encryption instead of RSA-based encryption here are some of our considerations: 
 
 #### 1) Smaller Key Sizes for Equivalent Security:
