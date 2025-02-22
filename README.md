@@ -108,9 +108,17 @@ message_dict = {
 
 In order to see the message Shiloh needs to initiate the next chapter, request for waiting messages.
 
+# Request for waiting messages protocol / CheckWaitingMessagesProtocol
+when the server is online, and an online client (let's name him Shiloh) wants to see all of his messages.
 
-
-
+#### The steps shiloh takes to view his messages:
+1)	Shiloh asks the server for waiting messages according to his phone number.
+2)	Server checks in database for Shiloh's waiting messages and sends the waiting messages to him (deleting them after viewing once).
+3)	Each message contains the sender's information (along side the public key of the sender, the sender's phone number and more...) 
+Shiloh generates the same shared secret with his private key and the sender’s public key (received from the server with the message) and derives the same derived key with the salt using KDF.
+4)	Shiloh unwraps the wrapped AES key with derived key and iv.
+5)	Shiloh decrypts the message using the AES key and the other iv.
+6) Shiloh views the messages one by one.
 
 # Questions, you might be having:
   #### ***Why use ECC-based asymmetric encryption algorithm (Elliptic Curve Cryptography) instead of the known RSA asymmetric encryption algorithm?***
