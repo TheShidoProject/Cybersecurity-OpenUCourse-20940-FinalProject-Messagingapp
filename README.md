@@ -16,17 +16,17 @@
 [Video for showcasing the project (in hebrew)]()
 
 #### Libraries used:
-##### - cryptography (.hazmat)
-##### - hashlib
-##### - Base64
-##### - Socket
-##### - json
-##### - threading
-##### - re (Secret Labs' Regular Expression Engine)
-##### - random
-##### - os
-##### - enum
-##### - abc
+##### cryptography (.hazmat)
+##### hashlib
+##### Base64
+##### Socket
+##### json
+##### threading
+##### re (Secret Labs' Regular Expression Engine)
+##### random
+##### os
+##### enum
+##### abc
 
   #### ***Why use ECC-based asymmetric encryption algorithm (Elliptic Curve Cryptography) instead of the known RSA asymmetric encryption algorithm?***
   For those wondering why did we use ECC-based encryption instead of RSA-based encryption here are some of our considerations: 
