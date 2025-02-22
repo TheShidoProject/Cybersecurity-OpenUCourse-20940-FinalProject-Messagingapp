@@ -1,5 +1,3 @@
-# Cybersecurity-OpenUCourse-20940-FinalProject-MessagingApp
-
 # A Little about the project
  
   This is a project we (Shiloh and Ido) have done as part of our university course.
@@ -14,7 +12,7 @@
   Essentially there are 4 major "protocols" that operate with each other in the project, the Registration protocol, the Connect/Connection protocol the Communication protocol and the Request for 
   waiting messages protocol.
 
-[Video for showcasing the project (in hebrew)]()
+[Video for showcasing the project (in hebrew)]
 
 #### Libraries used:
 ##### cryptography (.hazmat)
