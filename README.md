@@ -39,7 +39,7 @@
 
 [Video for showcasing the project (in English) will soon be uploaded here]
 
-### <ins> Libraries used: </ins> 📚🎧☕
+### Libraries used📚🎧☕:
 #### cryptography (.hazmat)
 #### hashlib
 #### Base64
