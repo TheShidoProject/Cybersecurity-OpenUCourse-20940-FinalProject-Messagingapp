@@ -126,7 +126,7 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 
 # Security Compliance Summary
 
-##  <ins>Confidentiality<ins>
+## Confidentiality
 
 ### Key Exchange and Encryption:
 •	The server and client utilize Elliptic Curve Diffie-Hellman (ECDH) to establish a shared secret, ensuring that sensitive information (like keys and messages) is exchanged securely over an encrypted channel.
@@ -136,7 +136,7 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 •	Hashing ensures that even if the database is compromised, attackers cannot reverse the hashed data to obtain the original values. Additionally, salt values are used to prevent precomputed attacks like rainbow table attacks.
 •	This practice aligns with the principle of defense in depth, further safeguarding sensitive information.
 
-###  <ins>Integrity<ins>
+## Integrity
 
 #### Message Encryption:
 •	By using AES encryption, the integrity of messages is inherently protected since tampering with the ciphertext results in decryption failure or nonsensical plaintext.
@@ -148,7 +148,7 @@ Client-Server Authentication:
 #### Inter-Client Authentication:
 •	Before sending messages, users request the recipient's public key from the server. This ensures that encryption is directed toward the intended recipient, authenticated by their phone number.
 
-### <ins>Resistance to MITM Attacks<ins>
+## Resistance to MITM Attacks
 #### Use of ECC (Elliptic Curve Cryptography):
 •	ECDH key exchange ensures that even if an attacker intercepts the data, they cannot derive the shared secret without access to the private keys.
 #### Public Key Validation:
