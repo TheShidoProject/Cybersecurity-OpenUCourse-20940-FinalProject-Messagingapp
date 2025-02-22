@@ -26,10 +26,10 @@
   ##### json
   ##### threading
   ##### re (Secret Labs' Regular Expression Engine)
-  ##### random
-  ##### os
-  ##### enum
-  ##### abc
+
+# Overview of Server's Functionality
+The server works on the default port: 5000.
+It waits for requests from clients (in the form of jsons') in an endless loop, when it receives a request, it deciphers the request and operates based on the request code it extracts from the request.
 
   #### ***Why use ECC-based asymmetric encryption algorithm (Elliptic Curve Cryptography) instead of the known RSA asymmetric encryption algorithm?***
   For those wondering why did we use ECC-based encryption instead of RSA-based encryption here are some of our considerations: 
