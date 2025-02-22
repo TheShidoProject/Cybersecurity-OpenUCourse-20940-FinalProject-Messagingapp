@@ -1,7 +1,7 @@
 # A Little about the project
  
   This is a project we (Shiloh and Ido) have done as part of our university course.
-  It is a client-server application which is similar to a messagner (like Whatsapp or Telegram etc etc...);
+  It is a client-server application which is similar to a messenger (like Whatsapp or Telegram etc etc...);
   
   It communicates under a tcp connection with End-to-end encryption (E2EE). 
   
