@@ -37,7 +37,6 @@
   ![protocol_codes_in_uml](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/ProtocolCodes.png)
   
 
-[Video for showcasing the project (in English) will soon be uploaded here]
 
 ### Libraries used📚🎧☕:
 #### cryptography (.hazmat)
