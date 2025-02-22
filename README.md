@@ -216,3 +216,7 @@ We wanted to use this project to learn new technologies, after both of us alread
   #### A chart the represents the Efficiency of RSA vs ECC in terms of key size for similar security
   ![RSA_vs_ECC](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/images/rsa_vs_ecc_performance.png)
 
+  #### ***Why switch from ECC-based asymmetric encryption algorithm to the AES (Advanced Encryption Standard)?***
+  For those wondering why do we change from the ECC-based asymmetric encryption algorithm to the AES symmetric encryption algorithm upon each new message, we do it because AES is much faster and more efficient for encrypting large   
+  amounts of data. Asymmetric encryption is generally more computationally intensive than symmetric based; In our case we switch from ECC which is an asymmetric encryption algorithm to the AES which is symmetric based.
+
