@@ -52,6 +52,36 @@ When created (after user input) it initializes a phone number, an email address 
 6)	The server saves the new user (with all of his credentials) in the database.
 7)	Server sends register success if no error has occurred.
  
+# Connect protocol
+when the server is online, and a client (lets name him Ido) wants to connect.
+
+#### Presumptions:
+User side - the user has already registered - he has the server’s public key and remembers the secret code the server gave him in the registration process.
+Server side - the user has already registered, the server has the user’s public key, secret code, phone number and email address.
+
+#### Steps of connecting to the server:
+1)	Ido generates a shared secret with the server using ECDH (Elliptic-curve Diffie–Hellman) with his private key and the server’s public key.
+2)	Ido generates a random salt and derives a secret key using KDF (key derivation function) on the shared secret with salt.
+3)	Ido generates an AES key and a random iv encrypt the secret code (with CBC mode).
+4)	Ido generates a random iv and wraps the AES key with the KDF derived key and the iv.
+5)	Ido sends to the server a json with all the necessary parameters it needs:
+
+```python
+            message_dict = {
+                "code": ProtocolCodes.initConnectionAESExchange.value,
+                "phone_number": phone_number,
+                "wrapped_aes_key": base64.b64encode(wrapped_key_data).decode("utf-8"),
+                "iv_for_wrapped_key": base64.b64encode(iv_for_wrapped_key).decode("utf-8"),
+                "encrypted_secret_code": base64.b64encode(encrypted_secret_code).decode("utf-8"),
+                "iv_for_secret": base64.b64encode(iv_for_secret).decode("utf-8"),
+                "salt": base64.b64encode(salt).decode("utf-8"),
+            }
+```
+6)	Server validates the phone number.
+7)	Server generates the same shared secret with his private key and Ido’s public key and derives the same derived key with the salt using KDF.
+8)	Server unwraps the wrapped AES key with derived key and iv.
+9)	Server decrypt the secret code using the AES key and the other iv, then validate the code from the database (where he saved Ido’s credentials).
+10)	If all successful, send to Ido that the connection is established.
 
 
 # Questions, you might be having:
