@@ -43,6 +43,7 @@ It waits for requests from clients (in the form of jsons') in an endless loop; w
 When created (after user input) it initializes a phone number, an email address and generates public and private ECC keys.
 
 # Registration process:
+### [Click here to view the UML we created for the Registration process](https://lucid.app/lucidchart/ef5d014f-755a-4853-8aa5-fa723d7300f9/edit?viewport_loc=-3171%2C-1122%2C4515%2C2120%2C0_0&invitationId=inv_0484b627-36d1-469e-9eb8-0d0644443883)
  When server is online, and a client (lets name him Shiloh) wants to register.
  
 #### The Steps of registration are:
