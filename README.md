@@ -13,7 +13,7 @@
   exchangd the message through.
   
   > [!NOTE]
-  >  For a more in-detail explanation, keep scrolling and watch the following videos
+  >  For a more in-detail explanation, keep scrolling and watch the following videos:
   #### [What is the Diffie-Hellman algorithm?](https://youtu.be/85oMrKd8afY?si=-okZEN9M6x6zJxBk)
   #### [What is ECC (Elliptic Curve Cryptography)?](https://youtu.be/NF1pwjL9-DE?si=yOYptssAnffK5pZ8)
   #### [What is AES (Advanced Encryption Standard)?](https://youtu.be/O4xNJsjtN6E?si=UBw5hMDR66QG0dNL)
@@ -24,7 +24,7 @@
   ![ECC_gif](https://github.com/TheShidoProject/Cybersecurity-OpenUCourse-20940-FinalProject-Messagingapp/blob/main/gifs/elliptic-curve-gif.gif)
   
 > [!TIP]
-> We recommend being familiar with the following videos above and of course the more knowledge you have the better
+> We recommend being familiar with the following videos above and of course the more knowledge you have the better.
 
 
   #### <ins> Essentially there are 4 major protocols or processes that operate with each other in the project: </ins>
