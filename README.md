@@ -19,7 +19,7 @@
   ##### 3) Communication protocol. 
   ##### 4) Request for waiting messages protocol.
 
-[Video for showcasing the project (in hebrew)]
+[Video for showcasing the project (in English) will soon be uploaded here]
 
 ### <ins> Libraries used: </ins>
 #### cryptography (.hazmat)
