@@ -144,7 +144,7 @@ Shiloh generates the same shared secret with his private key and the sender’s 
 ### Validation Mechanisms:
 •	The server validates incoming data such as phone numbers, email addresses, and secret codes during both registration and connection, ensuring the legitimacy and accuracy of the data being processed.
 
-### Authentication
+### <ins>Authentication</ins>
 #### Client-Server Authentication:
 •	During registration and connection, the client sends its public key and a securely derived secret code to the server, which cross-verifies it with its stored data to authenticate the user.
 #### Inter-Client Authentication:
