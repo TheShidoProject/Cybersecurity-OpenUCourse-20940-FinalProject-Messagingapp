@@ -1,6 +1,7 @@
 # Cybersecurity-OpenUCourse-20940-FinalProject-MessagingApp
 
-﻿# A Little about the project
+# A Little about the project
+ 
   This is a project we (Shiloh and Ido) have done as part of our university course.
   It is a client-server application which is similar to a messagner (like Whatsapp or Telegram etc etc...) that communicates under a tcp connection with End-to-end encryption (E2EE). 
   - Both the client-side and the server-side is written in Python.
